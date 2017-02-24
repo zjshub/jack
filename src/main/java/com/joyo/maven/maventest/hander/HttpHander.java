@@ -41,6 +41,7 @@ public class HttpHander extends SimpleChannelInboundHandler<FullHttpRequest> {
 //	HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(), HttpResponseStatus)
 	ctx.writeAndFlush("helloworld");
 	ctx.close();
+	//
 	}
 
 }
